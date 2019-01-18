@@ -45,13 +45,18 @@
 @media (max-width: 580px) {
   .about-section .about-details {
     margin: 0 1rem;
-    padding-top: 2rem; }
+    padding-top: 0rem;
+    border-top: 0; }
   .about-section article {
     padding-left: 0;
     padding-right: 0;
+    margin-bottom: 0;
     padding: 1rem; }
+    .about-section article .hero-img {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem; }
     .about-section article h2 {
-      font-size: 30px; }
+      display: none; }
     .about-section article p {
       width: 270px;
       margin: auto; } }
