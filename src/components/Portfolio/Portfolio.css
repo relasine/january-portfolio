@@ -1,0 +1,18 @@
+.portfolio-section {
+  background: #ebebeb; }
+  .portfolio-section h1 {
+    margin: 0 0 2rem;
+    padding-top: 2rem;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 100; }
+  .portfolio-section .projects-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto; }
+
+@media (max-width: 890px) {
+  .portfolio-section .projects-wrapper {
+    display: block; } }

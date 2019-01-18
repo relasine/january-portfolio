@@ -1,0 +1,104 @@
+.header {
+  background: url(../../images/clean-desk.jpg);
+  background-repeat: no-repeat;
+  min-height: 500px;
+  background-size: 100vw;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+}
+.header .header-frame {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  height: 300px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.5);
+}
+.header .header-frame div {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 3rem;
+}
+.header .header-frame div h1 {
+  margin: 1rem;
+  font-size: 70px;
+  font-weight: 200;
+}
+.header .header-frame div h4 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+  .header {
+    min-height: 300px;
+  }
+  .header .header-frame {
+    height: 200px;
+  }
+  .header .header-frame div {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 3rem;
+  }
+  .header .header-frame div h1 {
+    margin: 1rem;
+    font-size: 50px;
+    font-weight: 200;
+  }
+  .header .header-frame div h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 550px) {
+  .header {
+    min-height: 300px;
+  }
+  .header .header-frame {
+    height: 200px;
+    width: 300px;
+  }
+  .header .header-frame div {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 1rem;
+  }
+  .header .header-frame div h1 {
+    margin: 1rem;
+    font-size: 50px;
+    font-weight: 200;
+  }
+  .header .header-frame div h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 470px) {
+  .header {
+    min-height: 200px;
+  }
+  .header .header-frame {
+    height: 150px;
+    width: 250px;
+  }
+  .header .header-frame div {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 1rem;
+  }
+  .header .header-frame div h1 {
+    margin: 1rem;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .header .header-frame div h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+}

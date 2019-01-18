@@ -1,0 +1,27 @@
+.footer {
+  background: #ebebeb;
+}
+.footer .social-icons {
+  padding-top: 1rem;
+  font-size: 30px;
+  color: #333;
+}
+.footer a {
+  text-decoration: none;
+  color: #333;
+}
+.footer a:hover i {
+  cursor: pointer;
+  color: grey;
+}
+.footer i {
+  padding: 0 0.5rem;
+}
+.footer p {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin: 0;
+  padding: 1rem;
+}

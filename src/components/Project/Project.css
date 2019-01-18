@@ -1,0 +1,30 @@
+.project {
+  width: 256px;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  margin: 0 1rem;
+  padding-bottom: 2rem; }
+  .project img {
+    width: 250px;
+    height: 180px;
+    padding: 0.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.3); }
+  .project h4 {
+    margin: 0.2rem 0 0.4rem;
+    font-weight: 100;
+    text-transform: uppercase; }
+  .project p {
+    font-size: 0.8rem;
+    text-align: start; }
+  .project a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 0.3rem; }
+  .project a:hover {
+    cursor: pointer;
+    font-weight: 400; }
+
+@media (max-width: 890px) {
+  .project {
+    margin: auto; } }
