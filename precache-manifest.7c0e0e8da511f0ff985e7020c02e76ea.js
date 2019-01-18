@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b3d749321c28ef165ebb",
-    "url": "/january-portfolio/static/css/main.dbaa6e6e.chunk.css"
+    "revision": "649b00319eec596b1b03",
+    "url": "/january-portfolio/static/css/main.eb0f6bc1.chunk.css"
   },
   {
-    "revision": "b3d749321c28ef165ebb",
-    "url": "/january-portfolio/static/js/main.b3d74932.chunk.js"
+    "revision": "649b00319eec596b1b03",
+    "url": "/january-portfolio/static/js/main.649b0031.chunk.js"
   },
   {
     "revision": "f739feb7d61c48a46bed",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/january-portfolio/static/media/clean-desk.b083a2d1.jpg"
   },
   {
-    "revision": "f7cc477d49ba93d0d07d67394d81c099",
+    "revision": "5427b05b1c43dbba6909f05f174598cb",
     "url": "/january-portfolio/index.html"
   }
 ];
