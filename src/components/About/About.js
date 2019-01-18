@@ -14,19 +14,21 @@ class About extends Component {
       );
     });
     return (
-      <section className="about-section">
-        <article className="about-hero">
-          <h2>about me</h2>
-          <img
-            className="hero-img"
-            src="./images/ksheadshotsmol.jpg"
-            alt="kevin simpson"
-          />
-        </article>
-        <article className="about-details">
-          <div>{details}</div>
-        </article>
-      </section>
+      <div className="about-wrapper">
+        <section className="about-section">
+          <article className="about-hero">
+            <h2>about me</h2>
+            <img
+              className="hero-img"
+              src="./images/ksheadshotsmol.jpg"
+              alt="kevin simpson"
+            />
+          </article>
+          <article className="about-details">
+            <div>{details}</div>
+          </article>
+        </section>
+      </div>
     );
   }
 }
