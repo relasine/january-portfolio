@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/relasine/github.io/january-portfolio/precache-manifest.567588bfa44b40a8a4212f98fac1bb07.js"
+  "/relasine/github.io/january-portfolio/precache-manifest.0708a0f1238b036f9931de89b55edb32.js"
 );
 
 workbox.clientsClaim();

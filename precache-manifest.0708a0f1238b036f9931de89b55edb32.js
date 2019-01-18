@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/relasine/github.io/january-portfolio/static/media/clean-desk.b083a2d1.jpg"
   },
   {
-    "revision": "a464bdfa234cf4aa25cc765522174bd3",
+    "revision": "9c4657020a72bd9627764fba85cf4fad",
     "url": "/relasine/github.io/january-portfolio/index.html"
   }
 ];
