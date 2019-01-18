@@ -5,9 +5,9 @@ import { about } from "../../content/about";
 
 class About extends Component {
   render() {
-    const details = about.map(point => {
+    const details = about.map((point, index) => {
       return (
-        <p>
+        <p key={`about ${index}`}>
           {point} <br />
           <br />
         </p>

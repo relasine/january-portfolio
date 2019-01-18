@@ -7,6 +7,9 @@ $background-grey: #ebebeb;
   width: 256px;
   font-family: $primary-font;
   color: $primary-color;
+  margin: 0 1rem;
+  padding-bottom: 2rem;
+
   img {
     width: 250px;
     padding: 0.2rem;
@@ -30,5 +33,11 @@ $background-grey: #ebebeb;
   a:hover {
     cursor: pointer;
     font-weight: 400;
+  }
+}
+
+@media (max-width: 890px) {
+  .project {
+    margin: auto;
   }
 }

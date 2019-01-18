@@ -22,3 +22,11 @@ $background-grey: #ebebeb;
     margin: auto;
   }
 }
+
+@media (max-width: 890px) {
+  .portfolio-section {
+    .projects-wrapper {
+      display: block;
+    }
+  }
+}
