@@ -8,13 +8,12 @@ $primary-color: #333;
   grid-template-columns: 1fr 1fr;
   font-family: $primary-font;
   color: $primary-color;
-  width: 100vw;
 
   .about-details {
     display: flex;
     align-items: center;
     border-left: 1px solid $primary-color;
-    margin: 3rem 0;
+    padding: 3rem 0;
   }
   article {
     padding: 2rem;
