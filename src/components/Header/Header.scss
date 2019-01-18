@@ -4,6 +4,7 @@ $primary-color: #333;
 
 .header {
   background: url(../../images/clean-desk.jpg);
+  background-repeat: no-repeat;
   min-height: 500px;
   background-size: 100vw;
   background-position: center;
@@ -33,6 +34,81 @@ $primary-color: #333;
       h4 {
         font-size: 30px;
         text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .header {
+    min-height: 300px;
+    .header-frame {
+      height: 200px;
+      div {
+        max-width: 800px;
+        margin: auto;
+        padding: 0 3rem;
+
+        h1 {
+          margin: 1rem;
+          font-size: 50px;
+          font-weight: 200;
+        }
+        h4 {
+          font-size: 20px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .header {
+    min-height: 300px;
+    .header-frame {
+      height: 200px;
+      width: 300px;
+      div {
+        max-width: 800px;
+        margin: auto;
+        padding: 0 1rem;
+
+        h1 {
+          margin: 1rem;
+          font-size: 50px;
+          font-weight: 200;
+        }
+        h4 {
+          font-size: 20px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .header {
+    min-height: 200px;
+
+    .header-frame {
+      height: 150px;
+      width: 250px;
+      div {
+        max-width: 800px;
+        margin: auto;
+        padding: 0 1rem;
+
+        h1 {
+          margin: 1rem;
+          font-size: 30px;
+          font-weight: 200;
+        }
+        h4 {
+          font-size: 15px;
+          text-transform: uppercase;
+        }
       }
     }
   }

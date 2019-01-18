@@ -8,7 +8,12 @@ class Project extends Component {
       <article className="project">
         <img src={imagePath} alt={title} className="project=image" />
         <h4 className="project-title">{title}</h4>
-        <a href={repo} className="project-repo">
+        <a
+          href={repo}
+          rel="noopener noreferrer"
+          target="_blank"
+          className="project-repo"
+        >
           project repo
         </a>
         <a href={deployed} className="project-deployed">

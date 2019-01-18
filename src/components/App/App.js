@@ -4,6 +4,8 @@ import "./App.scss";
 import Header from "../Header/Header";
 import About from "../About/About";
 import Portfolio from "../Portfolio/Portfolio";
+import Blogs from "../Blogs/Blogs";
+import Footer from "../Footer/Footer";
 
 class App extends Component {
   render() {
@@ -12,6 +14,8 @@ class App extends Component {
         <Header />
         <About />
         <Portfolio />
+        <Blogs />
+        <Footer />
       </div>
     );
   }
