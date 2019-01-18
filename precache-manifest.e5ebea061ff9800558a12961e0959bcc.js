@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/january-portfolio/static/media/clean-desk.b083a2d1.jpg"
   },
   {
-    "revision": "440899816ac700eb51ae71ede2c778ea",
+    "revision": "b0e4aa479db52151d337e744d4df7ba9",
     "url": "/january-portfolio/index.html"
   }
 ];
