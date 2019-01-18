@@ -10,10 +10,12 @@ $background-grey: #ebebeb;
     padding-top: 1rem;
     font-size: 30px;
     color: $primary-color;
+    padding-bottom: 1rem;
   }
   a {
     text-decoration: none;
     color: $primary-color;
+    font-family: $primary-font;
   }
 
   a:hover i {

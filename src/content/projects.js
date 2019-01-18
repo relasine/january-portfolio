@@ -1,15 +1,15 @@
 export const projects = [
   {
     title: "Pitch Battles",
-    imagePath: "../images/pitch-battles.png",
+    imagePath: "./images/pitch-battles.png",
     repo: "https://github.com/relasine/pitch-battles-frontend",
     deployed: "https://pitchbattles.herokuapp.com",
     details:
-      "Pitch Battles is a full stack application designed as a highly-gamified teaching tool for young musicians learning to read music. It features dual interfaces for both teacher and student, a React Native teacher portal, students stat tracking, leaderboards and more."
+      "Pitch Battles is a full stack application designed as a highly-gamified teaching tool for young musicians learning to read music. It features dual interfaces for both teacher and student, a React Native teacher portal, student stat tracking, leaderboards and more."
   },
   {
     title: "Jedi Access Archives",
-    imagePath: "../images/swapibox.png",
+    imagePath: "./images/swapibox.png",
     repo: "https://github.com/relasine/SWAPIBox",
     deployed: "https://relasine.github.io/SWAPIBox/",
     details:
@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     title: "Colorado Kindercount",
-    imagePath: "../images/kindercount.png",
+    imagePath: "./images/kindercount.png",
     repo: "https://github.com/relasine/headcount2.0",
     deployed: "https://relasine.github.io/headcount2.0/",
     details:

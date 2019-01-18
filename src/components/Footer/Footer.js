@@ -29,6 +29,13 @@ class Footer extends Component {
             <i className="fab fa-twitter" />
           </a>
         </div>
+        <a
+          href="https://docs.google.com/document/d/188aGmw_v47ugDNWau8qPsNtYaroqE2WWf0EwCevmQYE/edit?usp=sharing"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          resume
+        </a>
         <p>Kevin Simpson ©2019 All Rights Reserved</p>
       </section>
     );
