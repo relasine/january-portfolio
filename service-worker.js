@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/relasine/github.io/january-portfolio/precache-manifest.0708a0f1238b036f9931de89b55edb32.js"
+  "/github.io/january-portfolio/precache-manifest.d932aa1d0c9e65dfeda69ee3a4db0294.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/relasine/github.io/january-portfolio/index.html", {
+workbox.routing.registerNavigationRoute("/github.io/january-portfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
