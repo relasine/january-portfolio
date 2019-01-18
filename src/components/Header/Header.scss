@@ -1,0 +1,34 @@
+.header {
+  background: url(../../images/apple-computer-desk-96858.jpg);
+  width: 100vw;
+  min-height: 500px;
+  background-size: 100vw;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+
+  .header-frame {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    height: 300px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8);
+
+    div {
+      max-width: 800px;
+      margin: auto;
+      padding: 0 3rem;
+
+      h1 {
+        font-size: 70px;
+        font-weight: 200;
+      }
+      h4 {
+        font-size: 30px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
