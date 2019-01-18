@@ -5,7 +5,7 @@ export const projects = [
     repo: "https://github.com/relasine/pitch-battles-frontend",
     deployed: "https://pitchbattles.herokuapp.com",
     details:
-      "Pitch Battles is a full stack applicationd designed as a highly-gamified teaching tool for young musicians learning to read music. It features dual interfaces for both teacher and student, a React Native teacher portal, students stat tracking, leaderboards and more."
+      "Pitch Battles is a full stack application designed as a highly-gamified teaching tool for young musicians learning to read music. It features dual interfaces for both teacher and student, a React Native teacher portal, students stat tracking, leaderboards and more."
   },
   {
     title: "Jedi Access Archives",
