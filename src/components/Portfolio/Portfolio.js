@@ -12,8 +12,12 @@ class Portfolio extends Component {
 
     return (
       <section className="portfolio-section">
-        <h1>Portfolio</h1>
-        <div className="projects-wrapper">{myProjects}</div>
+        <h1 className={`${this.props.loadStatus} portfolio-title`}>
+          Portfolio
+        </h1>
+        <div className={`projects-wrapper ${this.props.loadStatus}`}>
+          {myProjects}
+        </div>
       </section>
     );
   }

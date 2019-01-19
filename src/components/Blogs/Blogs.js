@@ -11,8 +11,8 @@ class Blogs extends Component {
     });
     return (
       <section className="blogs-section">
-        <h2>Blogs</h2>
-        <div className="blog-wrapper">{myBlogs}</div>
+        <h2 className={`${this.props.loadStatus} blog-title`}>Blogs</h2>
+        <div className={`blog-wrapper ${this.props.loadStatus}`}>{myBlogs}</div>
       </section>
     );
   }

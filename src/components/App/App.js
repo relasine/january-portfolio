@@ -14,15 +14,39 @@ class App extends Component {
 
     this.state = {
       loading: true,
-      loaded: 0
+      loaded: 0,
+      aboutLoad: false,
+      portfolioLoad: false,
+      blogLoad: false
     };
   }
+
+  scrollCheck = () => {
+    if (window.pageYOffset >= 1000) {
+      this.setState({
+        aboutLoad: true,
+        portfolioLoad: true,
+        blogLoad: true
+      });
+      window.removeEventListener("scroll", this.scrollCheck);
+    } else if (window.pageYOffset >= 700) {
+      this.setState({
+        aboutLoad: true,
+        portfolioLoad: true
+      });
+    } else if (window.pageYOffset >= 200) {
+      this.setState({
+        aboutLoad: true
+      });
+    }
+  };
 
   toggleLoading = () => {
     if (!this.state.loaded) {
       this.setState({
         loaded: this.state.loaded + 1
       });
+      window.addEventListener("scroll", this.scrollCheck);
     } else {
       this.setState({
         loading: false
@@ -34,11 +58,11 @@ class App extends Component {
     return (
       <div className="App">
         {!this.state.loading && (
-          <main>
+          <main onScroll={this.scrollCheck}>
             <Header />
-            <About />
-            <Portfolio />
-            <Blogs />
+            <About loadStatus={this.state.aboutLoad} />
+            <Portfolio loadStatus={this.state.portfolioLoad} />
+            <Blogs loadStatus={this.state.blogLoad} />
             <Footer />
           </main>
         )}

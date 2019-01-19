@@ -6,6 +6,12 @@ $background-grey: #ebebeb;
 .blogs-section {
   background: $background-white;
   padding: 1rem 0 2rem;
+
+  h2.true,
+  .blog-wrapper.true {
+    animation: blog-slide 0.8s linear;
+    right: 0;
+  }
   h2 {
     margin-top: 0;
     padding-top: 1rem;
@@ -14,13 +20,13 @@ $background-grey: #ebebeb;
     font-weight: 100;
     font-size: 40px;
     position: relative;
-    animation: blog-slide 3s linear;
+    right: 3000px;
   }
   .blog-wrapper {
     display: flex;
     justify-content: space-between;
     position: relative;
-    animation: blog-slide 3s linear;
+    right: 3000px;
 
     img {
       width: 250px;
@@ -56,9 +62,6 @@ $background-grey: #ebebeb;
 
 @keyframes blog-slide {
   0% {
-    right: 4000px;
-  }
-  70% {
     right: 4000px;
   }
   100% {

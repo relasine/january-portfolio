@@ -16,7 +16,7 @@ class About extends Component {
     return (
       <div className="about-wrapper">
         <section className="about-section">
-          <article className="about-hero">
+          <article className={`about-hero ${this.props.loadStatus}`}>
             <h2>about me</h2>
             <img
               className="hero-img"
@@ -24,7 +24,7 @@ class About extends Component {
               alt="kevin simpson"
             />
           </article>
-          <article className="about-details">
+          <article className={`about-details ${this.props.loadStatus}`}>
             <div>{details}</div>
           </article>
         </section>
