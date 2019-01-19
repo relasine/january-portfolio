@@ -20,7 +20,7 @@ $primary-color: #333;
 
   .about-hero {
     position: relative;
-    animation: about-slide-down 1.9s linear;
+    animation: about-slide-down 2.3s linear;
   }
   .about-details {
     position: relative;
@@ -29,7 +29,7 @@ $primary-color: #333;
     border-left: 1px solid $primary-color;
     margin: 3rem 0;
     max-width: 1000px;
-    animation: about-slide-up 1.9s linear;
+    animation: about-slide-up 2.3s linear;
   }
 
   article {
