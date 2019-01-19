@@ -13,9 +13,13 @@ $background-grey: #ebebeb;
     font-family: $primary-font;
     text-transform: uppercase;
     font-weight: 100;
+    position: relative;
+    animation: project-slide 2.3s linear;
   }
 
   .projects-wrapper {
+    animation: project-slide 2.3s linear;
+    position: relative;
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
@@ -28,5 +32,17 @@ $background-grey: #ebebeb;
     .projects-wrapper {
       display: block;
     }
+  }
+}
+
+@keyframes project-slide {
+  0% {
+    left: 4000px;
+  }
+  60% {
+    left: 4000px;
+  }
+  100% {
+    left: 0;
   }
 }

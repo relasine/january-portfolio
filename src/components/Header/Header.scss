@@ -3,23 +3,23 @@ $primary-font: "Montserrat", sans-serif;
 $primary-color: #333;
 
 .header {
-  background: url(../../images/clean-desk.jpg);
-  background-repeat: no-repeat;
+  overflow: hidden;
   min-height: 500px;
-  background-size: 100vw;
-  background-position: center;
+
   display: flex;
   align-items: center;
   font-family: $primary-font;
   color: $primary-color;
 
   .header-frame {
+    position: relative;
     display: flex;
     align-items: center;
     max-width: 900px;
     height: 300px;
     margin: auto;
     background: rgba(255, 255, 255, 0.5);
+    animation: header-slide 1.5s linear;
 
     div {
       max-width: 800px;
@@ -111,5 +111,17 @@ $primary-color: #333;
         }
       }
     }
+  }
+}
+
+@keyframes header-slide {
+  0% {
+    left: 4000px;
+  }
+  50% {
+    left: 4000px;
+  }
+  100% {
+    left: 0;
   }
 }

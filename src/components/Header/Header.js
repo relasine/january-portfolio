@@ -3,8 +3,15 @@ import "./Header.scss";
 
 class Header extends Component {
   render() {
+    const background = {
+      backgroundImage: "url(./images/clean-desk.jpg)",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "100vw",
+      backgroundPosition: "center"
+    };
+
     return (
-      <header className="header">
+      <header style={background} className="header">
         <section className="header-frame">
           <div className="name-frame">
             <h1 className="header-name">Kevin Simpson</h1>

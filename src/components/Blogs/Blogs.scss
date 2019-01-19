@@ -13,10 +13,14 @@ $background-grey: #ebebeb;
     text-transform: uppercase;
     font-weight: 100;
     font-size: 40px;
+    position: relative;
+    animation: blog-slide 2.6s linear;
   }
   .blog-wrapper {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    animation: blog-slide 2.6s linear;
 
     img {
       width: 250px;
@@ -47,5 +51,17 @@ $background-grey: #ebebeb;
       margin: auto;
       width: 256px;
     }
+  }
+}
+
+@keyframes blog-slide {
+  0% {
+    right: 4000px;
+  }
+  70% {
+    right: 4000px;
+  }
+  100% {
+    right: 0;
   }
 }

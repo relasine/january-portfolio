@@ -5,6 +5,7 @@ $primary-color: #333;
 .about-wrapper {
   background: $background-white;
   width: 100%;
+  overflow: hidden;
 }
 .about-section {
   background: $background-white;
@@ -14,14 +15,23 @@ $primary-color: #333;
   color: $primary-color;
   max-width: 1000px;
   margin: auto;
+  overflow: hidden;
+  max-height: 800px;
 
+  .about-hero {
+    position: relative;
+    animation: about-slide-down 1.9s linear;
+  }
   .about-details {
+    position: relative;
     display: flex;
     align-items: center;
     border-left: 1px solid $primary-color;
     margin: 3rem 0;
     max-width: 1000px;
+    animation: about-slide-up 1.9s linear;
   }
+
   article {
     div {
       margin: auto;
@@ -86,5 +96,29 @@ $primary-color: #333;
         margin: auto;
       }
     }
+  }
+}
+
+@keyframes about-slide-down {
+  0% {
+    bottom: 2200px;
+  }
+  50% {
+    bottom: 2200px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes about-slide-up {
+  0% {
+    top: 2200px;
+  }
+  50% {
+    top: 2200px;
+  }
+  100% {
+    top: 0;
   }
 }
