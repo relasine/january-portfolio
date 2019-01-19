@@ -22,19 +22,18 @@ class App extends Component {
   }
 
   scrollCheck = () => {
-    if (window.pageYOffset >= 1000) {
+    if (window.pageYOffset >= 900) {
       this.setState({
-        aboutLoad: true,
-        portfolioLoad: true,
+        aboutLo        portfolioLoad: true,
         blogLoad: true
       });
       window.removeEventListener("scroll", this.scrollCheck);
-    } else if (window.pageYOffset >= 700) {
+    } else if (window.pageYOffset >= 500) {
       this.setState({
         aboutLoad: true,
         portfolioLoad: true
       });
-    } else if (window.pageYOffset >= 200) {
+    } else if (window.pageYOffset >= 100) {
       this.setState({
         aboutLoad: true
       });
