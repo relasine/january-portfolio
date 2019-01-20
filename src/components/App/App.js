@@ -25,7 +25,8 @@ class App extends Component {
     if (window.pageYOffset >= 900) {
       this.setState({
         portfolioLoad: true,
-        blogLoad: true
+        blogLoad: true,
+        aboutLoad: true
       });
       window.removeEventListener("scroll", this.scrollCheck);
     } else if (window.pageYOffset >= 400) {
