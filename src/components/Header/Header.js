@@ -27,7 +27,7 @@ class Header extends Component {
       backgroundImage: "url(./images/clean-desk.jpg)",
       backgroundRepeat: "no-repeat",
       backgroundSize: "100vw",
-      backgroundPosition: "center"
+      backgroundPositionY: this.state.offset
     };
 
     return (
