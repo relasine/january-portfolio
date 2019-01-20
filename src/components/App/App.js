@@ -28,7 +28,7 @@ class App extends Component {
         blogLoad: true,
         aboutLoad: true
       });
-      window.removeEventListener("scroll", this.scrollCheck);
+      // window.removeEventListener("scroll", this.scrollCheck);
     } else if (window.pageYOffset >= 400) {
       this.setState({
         aboutLoad: true,
