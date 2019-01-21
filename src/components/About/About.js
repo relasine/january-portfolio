@@ -23,9 +23,41 @@ class About extends Component {
               src="./images/ksheadshotsmol.jpg"
               alt="kevin simpson"
             />
+            <div className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/kevinjohnsimpson/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fab fa-linkedin" />
+              </a>
+              <a
+                href="https://www.github.com/relasine/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fab fa-github" />
+              </a>
+              <a
+                href="https://www.twitter.com/relasine/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fab fa-twitter" />
+              </a>
+            </div>
           </article>
           <article className={`about-details ${this.props.loadStatus}`}>
-            <div>{details}</div>
+            <div>
+              {details}
+              <a
+                href="https://docs.google.com/document/d/188aGmw_v47ugDNWau8qPsNtYaroqE2WWf0EwCevmQYE/edit?usp=sharing"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                resume
+              </a>
+            </div>
           </article>
         </section>
       </div>
