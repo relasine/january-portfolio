@@ -3,7 +3,14 @@ import "./Project.scss";
 
 class Project extends Component {
   render() {
-    const { title, imagePath, repo, deployed, details } = this.props.data;
+    const {
+      title,
+      imagePath,
+      repo,
+      deployed,
+      details,
+      stack
+    } = this.props.data;
     return (
       <article className="project">
         <img src={imagePath} alt={title} className="project=image" />
@@ -19,7 +26,10 @@ class Project extends Component {
         <a href={deployed} className="project-deployed">
           deployed application
         </a>
-        <p>{details}</p>
+        <p className="project-details">{details}</p>
+        <p>
+          Tech stack: <span>{stack}</span>
+        </p>
       </article>
     );
   }
