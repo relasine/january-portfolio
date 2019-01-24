@@ -3,9 +3,14 @@ $primary-font: "Montserrat", sans-serif;
 $primary-color: #333;
 $background-grey: #ebebeb;
 
-.blogs-section {
+.blog-section-backer {
   background: $background-white;
+}
+
+.blogs-section {
   padding: 1rem 0 2rem;
+  max-width: 1000px;
+  margin: auto;
 
   h2.true,
   .blog-wrapper.true {

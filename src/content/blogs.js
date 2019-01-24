@@ -12,5 +12,12 @@ export const blogs = [
     imagePath: "./images/react-article.png",
     link:
       "https://medium.com/@relasine/things-i-wish-i-understood-when-i-started-with-react-js-d20b1cef7f81"
+  },
+  {
+    id: "blog 3",
+    title: "Build a Parallax Header in React",
+    imagePath: "./images/parallax.png",
+    link:
+      "https://medium.com/@relasine/building-a-parallax-header-in-react-301d0ab9fd96"
   }
 ];

@@ -10,10 +10,14 @@ class Blogs extends Component {
       return <Blog data={blog} key={blog.id} />;
     });
     return (
-      <section className="blogs-section">
-        <h2 className={`${this.props.loadStatus} blog-title`}>Blogs</h2>
-        <div className={`blog-wrapper ${this.props.loadStatus}`}>{myBlogs}</div>
-      </section>
+      <div className="blog-section-backer">
+        <section className="blogs-section">
+          <h2 className={`${this.props.loadStatus} blog-title`}>Blogs</h2>
+          <div className={`blog-wrapper ${this.props.loadStatus}`}>
+            {myBlogs}
+          </div>
+        </section>
+      </div>
     );
   }
 }
