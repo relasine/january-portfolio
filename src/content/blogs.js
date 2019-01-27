@@ -1,11 +1,11 @@
 export const blogs = [
-  {
-    id: "blog 1",
-    title: "16-bit Sprite Animation in CSS",
-    imagePath: "./images/animation-article.png",
-    link:
-      "https://medium.com/@relasine/16-bit-sprite-animation-in-css-9cf8f36550d9"
-  },
+  // {
+  //   id: "blog 1",
+  //   title: "16-bit Sprite Animation in CSS",
+  //   imagePath: "./images/animation-article.png",
+  //   link:
+  //     "https://medium.com/@relasine/16-bit-sprite-animation-in-css-9cf8f36550d9"
+  // },
   {
     id: "blog 2",
     title: "Things I Wish I Understood When I Started with React.js",
@@ -19,5 +19,12 @@ export const blogs = [
     imagePath: "./images/parallax.png",
     link:
       "https://medium.com/@relasine/building-a-parallax-header-in-react-301d0ab9fd96"
+  },
+  {
+    id: "blog 4",
+    title: "The Basics of Testing a React Component",
+    imagePath: "./images/testing-article.png",
+    link:
+      "https://medium.com/@relasine/the-basics-of-testing-a-react-component-2ff635c99044"
   }
 ];
