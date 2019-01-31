@@ -22,9 +22,9 @@ export const blogs = [
   },
   {
     id: "blog 4",
-    title: "The Basics of Testing a React Component",
+    title: "The Basics of Testing a React Component - featured on gitconnected",
     imagePath: "./images/testing-article.png",
     link:
-      "https://medium.com/@relasine/the-basics-of-testing-a-react-component-2ff635c99044"
+      "https://levelup.gitconnected.com/the-basics-of-testing-a-react-component-2ff635c99044"
   }
 ];
