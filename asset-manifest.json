@@ -1,14 +1,13 @@
 {
-  "main.css": "/january-portfolio/static/css/main.0e082dfc.chunk.css",
-  "main.js": "/january-portfolio/static/js/main.51ef28dd.chunk.js",
-  "main.js.map": "/january-portfolio/static/js/main.51ef28dd.chunk.js.map",
+  "main.css": "/january-portfolio/static/css/main.8250a3bc.chunk.css",
+  "main.js": "/january-portfolio/static/js/main.f91f89eb.chunk.js",
+  "main.js.map": "/january-portfolio/static/js/main.f91f89eb.chunk.js.map",
   "static/js/1.f739feb7.chunk.js": "/january-portfolio/static/js/1.f739feb7.chunk.js",
   "static/js/1.f739feb7.chunk.js.map": "/january-portfolio/static/js/1.f739feb7.chunk.js.map",
   "runtime~main.js": "/january-portfolio/static/js/runtime~main.c770fcce.js",
   "runtime~main.js.map": "/january-portfolio/static/js/runtime~main.c770fcce.js.map",
-  "static/media/Header.scss": "/january-portfolio/static/media/clean-desk.b083a2d1.jpg",
-  "static/css/main.0e082dfc.chunk.css.map": "/january-portfolio/static/css/main.0e082dfc.chunk.css.map",
+  "static/css/main.8250a3bc.chunk.css.map": "/january-portfolio/static/css/main.8250a3bc.chunk.css.map",
   "index.html": "/january-portfolio/index.html",
-  "precache-manifest.86ba5e41d949b788350112f52a02c4d1.js": "/january-portfolio/precache-manifest.86ba5e41d949b788350112f52a02c4d1.js",
+  "precache-manifest.26b49c9e54b0b6055ab64e92575cf5be.js": "/january-portfolio/precache-manifest.26b49c9e54b0b6055ab64e92575cf5be.js",
   "service-worker.js": "/january-portfolio/service-worker.js"
 }
