@@ -1,20 +1,20 @@
 .header {
-  background: url(../../images/clean-desk.jpg);
-  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
   min-height: 500px;
-  background-size: 100vw;
-  background-position: center;
   display: flex;
   align-items: center;
   font-family: "Montserrat", sans-serif;
   color: #333; }
   .header .header-frame {
+    position: relative;
     display: flex;
     align-items: center;
     max-width: 900px;
     height: 300px;
     margin: auto;
-    background: rgba(255, 255, 255, 0.5); }
+    background: rgba(255, 255, 255, 0.9);
+    animation: header-slide 2s linear; }
     .header .header-frame div {
       max-width: 800px;
       margin: auto;
@@ -79,3 +79,11 @@
         .header .header-frame div h4 {
           font-size: 15px;
           text-transform: uppercase; } }
+
+@keyframes header-slide {
+  0% {
+    left: 4000px; }
+  50% {
+    left: 4000px; }
+  100% {
+    left: 0; } }

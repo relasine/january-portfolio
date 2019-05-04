@@ -1,6 +1,7 @@
 .about-wrapper {
   background: #f2f2f2;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
 
 .about-section {
   background: #f2f2f2;
@@ -9,13 +10,49 @@
   font-family: "Montserrat", sans-serif;
   color: #333;
   max-width: 1000px;
-  margin: auto; }
+  margin: auto;
+  overflow: hidden;
+  max-height: 800px; }
+  .about-section .about-hero {
+    position: relative;
+    bottom: 2200px; }
+    .about-section .about-hero .social-icons {
+      padding-top: 1rem;
+      font-size: 30px;
+      color: #333;
+      padding-bottom: 1rem; }
+    .about-section .about-hero a {
+      text-decoration: none;
+      color: #333;
+      font-family: "Montserrat", sans-serif; }
+    .about-section .about-hero a:hover i {
+      cursor: pointer;
+      color: grey; }
+    .about-section .about-hero i {
+      padding: 0 0.5rem; }
+  .about-section .about-hero.true {
+    bottom: 0px;
+    animation: about-slide-down 0.8s linear; }
   .about-section .about-details {
+    position: relative;
     display: flex;
     align-items: center;
     border-left: 1px solid #333;
     margin: 3rem 0;
-    max-width: 1000px; }
+    max-width: 1000px;
+    top: 2200px; }
+    .about-section .about-details a {
+      text-decoration: none;
+      color: #333;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 800;
+      text-transform: uppercase; }
+    .about-section .about-details a:hover i {
+      cursor: pointer;
+      font-weight: 900; }
+  .about-section .about-details.true {
+    top: 0px;
+    animation: about-slide-up 0.8s linear; }
   .about-section article {
     padding: 2rem; }
     .about-section article div {
@@ -24,7 +61,7 @@
       height: 200px;
       width: 200px;
       border-radius: 50%;
-      margin-bottom: 2rem; }
+      margin-bottom: 0rem; }
     .about-section article h2 {
       font-size: 40px;
       font-weight: 100;
@@ -60,3 +97,15 @@
     .about-section article p {
       width: 270px;
       margin: auto; } }
+
+@keyframes about-slide-down {
+  0% {
+    bottom: 1000px; }
+  100% {
+    bottom: 0; } }
+
+@keyframes about-slide-up {
+  0% {
+    top: 1000px; }
+  100% {
+    top: 0; } }

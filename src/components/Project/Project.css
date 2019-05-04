@@ -13,6 +13,8 @@
     margin: 0.2rem 0 0.4rem;
     font-weight: 100;
     text-transform: uppercase; }
+  .project .project-details {
+    height: 110px; }
   .project p {
     font-size: 0.8rem;
     text-align: start; }
