@@ -13,19 +13,23 @@ class Project extends Component {
     } = this.props.data;
     return (
       <article className="project">
-        <img src={imagePath} alt={title} className="project=image" />
+        <img src={imagePath} alt={title} className="project-image" />
         <h4 className="project-title">{title}</h4>
-        <a
-          href={repo}
-          rel="noopener noreferrer"
-          target="_blank"
-          className="project-repo"
-        >
-          project repo
-        </a>
-        <a href={deployed} className="project-deployed">
-          deployed application
-        </a>
+        <div className="project-links">
+          {repo && (
+            <a
+              href={repo}
+              rel="noopener noreferrer"
+              target="_blank"
+              className="project-repo"
+            >
+              project repo
+            </a>
+          )}
+          <a href={deployed} className="project-deployed">
+            deployed application
+          </a>
+        </div>
         <p className="project-details">{details}</p>
         <p>
           Tech stack: <span>{stack}</span>

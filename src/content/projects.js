@@ -1,7 +1,18 @@
+import pitchBattlesImage from "../images/pitch-battles.png";
+import swapiImage from "../images/swapibox.png";
+import mymImage from "../images/mym.png";
 export const projects = [
   {
+    title: "Make Your Mark",
+    imagePath: mymImage,
+    deployed: "mym.tcsengine.com",
+    details:
+      "This microsite for Trimble’s Geospatial division was our team’s POC for transitioning from a fully-Drupal-based web stack to using React as the UI with Drupal as a headless CMS.",
+    stack: "React, React Router, SCSS, Headless Drupal"
+  },
+  {
     title: "Pitch Battles",
-    imagePath: "./images/pitch-battles.png",
+    imagePath: pitchBattlesImage,
     repo: "https://github.com/relasine/pitch-battles-frontend",
     deployed: "https://pitchbattles.herokuapp.com",
     details:
@@ -11,20 +22,11 @@ export const projects = [
   },
   {
     title: "Jedi Access Archives",
-    imagePath: "./images/swapibox.png",
+    imagePath: swapiImage,
     repo: "https://github.com/relasine/SWAPIBox",
     deployed: "https://relasine.github.io/SWAPIBox/",
     details:
       "Jedi Access Archives is an interactive, narrative application experience built to allow users to explore information related to the Star Wars universe utilizing the Star Wars API.",
     stack: "React, React Router, CSS3, JavaScript ES7, Jest/Enzyme"
-  },
-  {
-    title: "Colorado Kindercount",
-    imagePath: "./images/kindercount.png",
-    repo: "https://github.com/relasine/headcount2.0",
-    deployed: "https://relasine.github.io/headcount2.0/",
-    details:
-      "Colorado Kindercount is a React application used to sort, filter, and compare test score information for different Colorado school districts.",
-    stack: "React, CSS3, Jest/Enzyme, JavaScript ES7"
   }
 ];
