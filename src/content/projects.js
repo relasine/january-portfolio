@@ -24,7 +24,7 @@ export const projects = [
     repo: "https://github.com/relasine/headcount2.0",
     deployed: "https://relasine.github.io/headcount2.0/",
     details:
-      "Colorado Kindercount is a React application used to sort, display, and compare test score information for different Colorado school districts.",
+      "Colorado Kindercount is a React application used to sort, filter, and compare test score information for different Colorado school districts.",
     stack: "React, CSS3, Jest/Enzyme, JavaScript ES7"
   }
 ];
