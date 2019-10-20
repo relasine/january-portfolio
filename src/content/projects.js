@@ -8,7 +8,7 @@ export const projects = [
     deployed: "mym.tcsengine.com",
     details:
       "This microsite for Trimble’s Geospatial division was our team’s POC for transitioning from a fully-Drupal-based web stack to using React as the UI with Drupal as a headless CMS.",
-    stack: "React, React Router, SCSS, Headless Drupal"
+    stack: "React, React Router, SCSS, Headless Drupal, Node"
   },
   {
     title: "Pitch Battles",
@@ -16,7 +16,7 @@ export const projects = [
     repo: "https://github.com/relasine/pitch-battles-frontend",
     deployed: "https://pitchbattles.herokuapp.com",
     details:
-      "Pitch Battles is a full stack application designed as a highly-gamified teaching tool for young musicians learning to read music. It features dual interfaces for both teacher and student, a React Native teacher portal, student stat tracking, leaderboards and more.",
+      "Pitch Battles is a full stack application designed as a highly-gamified teaching tool for young musicians learning to read music and teachers to track their progress",
     stack:
       "Front End: React, React Native, CSS3, Photoshop, TravisCI, Heroku, JavaScript ES7, Jest/Enzyme"
   },
