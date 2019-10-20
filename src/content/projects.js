@@ -8,7 +8,7 @@ export const projects = [
     deployed: "mym.tcsengine.com",
     details:
       "This microsite for Trimble’s Geospatial division was our team’s POC for transitioning from a fully-Drupal-based web stack to using React as the UI with Drupal as a headless CMS.",
-    stack: "React, React Router, SCSS, Headless Drupal, Node"
+    stack: "React, React Router, SCSS, headless Drupal, Node, Express"
   },
   {
     title: "Pitch Battles",
