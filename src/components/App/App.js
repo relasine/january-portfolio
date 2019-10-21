@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.scss";
-
 import Header from "../Header/Header";
 import About from "../About/About";
 import Portfolio from "../Portfolio/Portfolio";
@@ -58,8 +57,9 @@ class App extends Component {
     return (
       <div className="App">
         {!this.state.loading && (
-          <main onScroll={this.scrollCheck}>
+          <main>
             <Header />
+
             <About loadStatus={this.state.aboutLoad} />
             <Portfolio loadStatus={this.state.portfolioLoad} />
             <Blogs loadStatus={this.state.blogLoad} />

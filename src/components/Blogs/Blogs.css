@@ -1,53 +1,68 @@
 .blog-section-backer {
-  background: #f2f2f2; }
+  background: #f2f2f2;
+}
 
 .blogs-section {
   padding: 1rem 0 2rem;
   max-width: 1000px;
-  margin: auto; }
-  .blogs-section h2.true,
-  .blogs-section .blog-wrapper.true {
-    animation: blog-slide 0.8s linear;
-    right: 0; }
-  .blogs-section h2 {
-    margin-top: 0;
-    padding-top: 1rem;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 40px;
-    position: relative;
-    right: 3000px; }
-  .blogs-section .blog-wrapper {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    position: relative;
-    right: 3000px; }
-    .blogs-section .blog-wrapper img {
-      width: 250px;
-      height: 180px;
-      padding: 0.2rem;
-      border: 1px solid rgba(0, 0, 0, 0.3); }
-    .blogs-section .blog-wrapper h4 {
-      font-family: "Montserrat", sans-serif;
-      text-transform: uppercase;
-      font-weight: 100;
-      font-size: 1rem;
-      color: #333;
-      margin-top: 0.3rem;
-      height: 57px; }
-    .blogs-section .blog-wrapper a {
-      text-decoration: none; }
-    .blogs-section .blog-wrapper a:hover h4 {
-      cursor: pointer;
-      font-weight: 400; }
-    .blogs-section .blog-wrapper .blog {
-      margin: 0 1rem;
-      width: 256px; }
+  margin: auto;
+  position: relative;
+  z-index: 100;
+}
+.blogs-section h2.true,
+.blogs-section .blog-wrapper.true {
+  animation: blog-slide 0.8s linear;
+  right: 0;
+}
+.blogs-section h2 {
+  margin-top: 0;
+  padding-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 40px;
+  position: relative;
+  right: 3000px;
+}
+.blogs-section .blog-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  right: 3000px;
+}
+.blogs-section .blog-wrapper img {
+  width: 250px;
+  height: 180px;
+  padding: 0.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.blogs-section .blog-wrapper h4 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.3rem;
+  height: 57px;
+}
+.blogs-section .blog-wrapper a {
+  text-decoration: none;
+}
+.blogs-section .blog-wrapper a:hover h4 {
+  cursor: pointer;
+  font-weight: 400;
+}
+.blogs-section .blog-wrapper .blog {
+  margin: 0 1rem;
+  width: 256px;
+}
 
 @keyframes blog-slide {
   0% {
-    right: 4000px; }
+    right: 4000px;
+  }
   100% {
-    right: 0; } }
+    right: 0;
+  }
+}

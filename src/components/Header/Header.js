@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Header.scss";
+import Fade from "react-reveal/Fade";
 
 class Header extends Component {
   constructor() {
@@ -32,12 +33,17 @@ class Header extends Component {
 
     return (
       <header style={background} className="header">
-        <section style={{ bottom: this.state.offset }} className="header-frame">
-          <div className="name-frame">
-            <h1 className="header-name">Kevin Simpson</h1>
-            <h4 className="header-subtitle">Front End Developer</h4>
-          </div>
-        </section>
+        <Fade bottom>
+          <section
+            style={{ bottom: this.state.offset }}
+            className="header-frame"
+          >
+            <div className="name-frame">
+              <h1 className="header-name">Kevin Simpson</h1>
+              <h4 className="header-subtitle">Front End Developer</h4>
+            </div>
+          </section>
+        </Fade>
       </header>
     );
   }

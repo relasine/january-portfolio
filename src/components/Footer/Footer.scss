@@ -5,6 +5,8 @@ $background-grey: #ebebeb;
 
 .footer {
   background: $background-white;
+  position: relative;
+  z-index: 20;
 
   .social-icons {
     padding-top: 1rem;

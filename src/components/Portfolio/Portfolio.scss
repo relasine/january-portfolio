@@ -13,23 +13,13 @@ $background-grey: #ebebeb;
     font-family: $primary-font;
     text-transform: uppercase;
     font-weight: 100;
-    position: relative;
-    left: 3000px;
   }
 
   .projects-wrapper {
-    position: relative;
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
-    left: 3000px;
     margin: auto;
-  }
-
-  h1.true,
-  .projects-wrapper.true {
-    animation: project-slide 0.8s linear;
-    left: 0;
   }
 }
 
@@ -38,14 +28,5 @@ $background-grey: #ebebeb;
     .projects-wrapper {
       display: block;
     }
-  }
-}
-
-@keyframes project-slide {
-  0% {
-    left: 3000px;
-  }
-  100% {
-    left: 0;
   }
 }
