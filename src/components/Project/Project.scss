@@ -2,6 +2,7 @@ $background-white: #f2f2f2;
 $primary-font: "Montserrat", sans-serif;
 $primary-color: #333;
 $background-grey: #ebebeb;
+$link-color: #002d5b;
 
 .project {
   width: 256px;
@@ -9,6 +10,10 @@ $background-grey: #ebebeb;
   color: $primary-color;
   margin: 0 1rem;
   padding-bottom: 2rem;
+
+  &-tech-stack {
+    height: 45px;
+  }
 
   &-image {
     width: 250px;
@@ -19,6 +24,7 @@ $background-grey: #ebebeb;
 
   &-links {
     min-height: 48px;
+    color: $link-color;
   }
 
   h4 {
@@ -27,7 +33,7 @@ $background-grey: #ebebeb;
     text-transform: uppercase;
   }
   .project-details {
-    height: 90px;
+    height: 80px;
   }
   p {
     font-size: 0.8rem;
@@ -36,7 +42,8 @@ $background-grey: #ebebeb;
   a {
     display: block;
     text-decoration: none;
-    color: $primary-color;
+    color: $link-color;
+
     padding-bottom: 0.3rem;
   }
   a:hover {

@@ -15,9 +15,18 @@ class Project extends Component {
     return (
       <Fade delay={this.props.delay} bottom>
         <article className="project">
-          <img src={imagePath} alt={title} className="project-image" />
+          <a href={deployed}>
+            <img src={imagePath} alt={title} className="project-image" />
+          </a>
           <h4 className="project-title">{title}</h4>
+          <p className="project-details">{details}</p>
+          <p className="project-tech-stack">
+            Tech stack: <span>{stack}</span>
+          </p>
           <div className="project-links">
+            <a href={deployed} className="project-deployed">
+              deployed application
+            </a>
             {repo && (
               <a
                 href={repo}
@@ -28,14 +37,7 @@ class Project extends Component {
                 project repo
               </a>
             )}
-            <a href={deployed} className="project-deployed">
-              deployed application
-            </a>
           </div>
-          <p className="project-details">{details}</p>
-          <p>
-            Tech stack: <span>{stack}</span>
-          </p>
         </article>
       </Fade>
     );

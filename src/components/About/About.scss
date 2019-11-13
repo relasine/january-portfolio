@@ -1,6 +1,7 @@
 $background-white: #f2f2f2;
 $primary-font: "Montserrat", sans-serif;
 $primary-color: #333;
+$link-color: #002d5b;
 
 .about-wrapper {
   background: $background-white;
@@ -40,6 +41,10 @@ $primary-color: #333;
     }
   }
 
+  .about-resume-link {
+    color: $link-color;
+  }
+
   .about-details {
     display: flex;
     align-items: center;
@@ -53,6 +58,10 @@ $primary-color: #333;
       font-family: $primary-font;
       font-weight: 800;
       text-transform: uppercase;
+    }
+
+    .about-resume-link {
+      color: $link-color;
     }
 
     a:hover i {

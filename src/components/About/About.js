@@ -58,6 +58,7 @@ class About extends Component {
                   href="https://docs.google.com/document/d/188aGmw_v47ugDNWau8qPsNtYaroqE2WWf0EwCevmQYE/edit?usp=sharing"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="about-resume-link"
                 >
                   resume
                 </a>
