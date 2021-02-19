@@ -1,14 +1,22 @@
 import pitchBattlesImage from "../images/pitch-battles.png";
-import swapiImage from "../images/swapibox.png";
-import mymImage from "../images/mym.png";
+import luna from "../images/luna.png";
+import construction from "../images/construction.png";
 export const projects = [
   {
-    title: "Make Your Mark",
-    imagePath: mymImage,
-    deployed: "https://mym.tcsengine.com",
+    title: "Trimble Construction",
+    imagePath: construction,
+    deployed: "https://construction.trimble.com",
     details:
-      "This microsite for Trimble’s Geospatial division was our team’s POC for transitioning from a fully-Drupal-based web stack to using React as the UI with Drupal as a headless CMS.",
-    stack: "React, React Router, SCSS, headless Drupal, Node, Express"
+      "One of many sites built using the Terra and Luna React Component Libraries. Utilizes ThreeJS and React Three Fiber for the animated globe",
+    stack: "React, ThreeJS, React Router, SCSS, headless Drupal, Node, Express"
+  }, 
+  {
+    title: "Luna Component Library",
+    imagePath: luna,
+    deployed: "https://luna-one.herokuapp.com",
+    details:
+      "React Component Library built in accordance with Atomic Design Principles. Utilized throughout for Trimble brochureware sites.",
+    stack: "React, React Router, StorybookJS, SCSS, Node, Express, Jest, React Testing Library"
   },
   {
     title: "Pitch Battles",
@@ -19,14 +27,6 @@ export const projects = [
       "Pitch Battles is a full stack application designed as a highly-gamified teaching tool for young musicians learning to read music and teachers to track their progress",
     stack:
       "Front End: React, React Native, CSS3, Photoshop, TravisCI, Heroku, JavaScript ES7, Jest/Enzyme"
-  },
-  {
-    title: "Jedi Access Archives",
-    imagePath: swapiImage,
-    repo: "https://github.com/relasine/SWAPIBox",
-    deployed: "https://relasine.github.io/SWAPIBox/",
-    details:
-      "Jedi Access Archives is an interactive, narrative application experience built to allow users to explore information related to the Star Wars universe utilizing the Star Wars API.",
-    stack: "React, React Router, CSS3, JavaScript ES7, Jest/Enzyme"
   }
+
 ];
